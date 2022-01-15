@@ -8,17 +8,20 @@ struct vm{
 	int resourceDemand; 
 	int applicationPriorityLevel; // 1-Normal, 2-Critical, 3-Highly Critical
 	int arrivalTime;
+	int canAllocateInLowerHosts;
 	void read(){
-		cin>>vmId>>resourceDemand>>applicationPriorityLevel>>arrivalTime;
+		cin>>vmId>>resourceDemand>>applicationPriorityLevel>>arrivalTime>>canAllocateInLowerHosts;
 	}
 	void print(){
 		cout<<"VM Information of vmId "<<vmId<<" : \n";
 		cout<<"resourceDemand = "<<resourceDemand<<"\n";
 		cout<<"applicationPriorityLevel = "<<applicationPriorityLevel<<"\n";
 		cout<<"arrivalTime = "<<arrivalTime<<"\n";
+		cout<<"\n";
 	}
 	bool operator < (const vm& other) const{
-		return make_pair(arrivalTime,-applicationPriorityLevel)<make_pair(other.arrivalTime,-other.applicationPriorityLevel);
+		// arrange in order of lesser arrival time, then greater priority, then lower host allocation possibility, then greater resource demand
+		return make_pair(make_pair(arrivalTime,-applicationPriorityLevel),make_pair(canAllocateInLowerHosts,-resourceDemand))<make_pair(make_pair(other.arrivalTime,-other.applicationPriorityLevel),make_pair(other.canAllocateInLowerHosts,-other.resourceDemand));
 	}
 };
 
@@ -35,9 +38,11 @@ struct host{
 		cout<<"Host Information of hostId "<<hostId<<" : \n";
 		cout<<"hostPriorityLevel = "<<hostPriorityLevel<<"\n";
 		cout<<"capacity = "<<capacity<<"\n";
+		cout<<"\n";
 	}
 	bool operator < (const host& other) const{
-		return hostPriorityLevel<other.hostPriorityLevel;
+		// arrange in order of higher priority level, then greater capacity
+		return make_pair(-hostPriorityLevel,-capacity)<make_pair(-other.hostPriorityLevel,-other.capacity);
 	}
 };
 
@@ -67,7 +72,8 @@ int main()
 // initializes the global info of VMs and Hosts
 void init(){
 	freopen("input5.txt","r",stdin); // open input file
-	
+	freopen("output5.txt","w",stdout); // open output file
+
 	//---vm input ---//
 	cin>>numOfVM;
 	for(int i=0;i<numOfVM;i++){
@@ -77,7 +83,7 @@ void init(){
 	// sort the VMs in increasing order of arrival time
 	sort(vmList,vmList+numOfVM);
 
-	
+	cout<<"-----VM requests In order of processing:-----\n\n";
 	for(int i=0;i<numOfVM;i++){
 		vmList[i].print();
 	}
@@ -93,7 +99,8 @@ void init(){
 	}
 	// sort hosts in decreasing order of priority
 	sort(hostList,hostList+numOfHost);
-	
+
+	cout<<"-----Hosts Available:-----\n\n";	
 	for(int i=0;i<numOfHost;i++){
 		hostList[i].print();
 	}
@@ -106,7 +113,7 @@ int startHost(int priorityLevel){
 	int ret;
 	while(l<=r){
 		int m=(l+r)/2;
-		if(hostList[m].hostPriorityLevel>=priorityLevel){
+		if(hostList[m].hostPriorityLevel<=priorityLevel){
 			ret=m;
 			r=m-1;
 		}
@@ -119,29 +126,48 @@ int startHost(int priorityLevel){
 void allocate()
 {
 	for(int i=0;i<numOfVM;i++){
+
 		int id=vmList[i].vmId;
 		int resDemand=vmList[i].resourceDemand;
 		int priorityLevel=vmList[i].applicationPriorityLevel;
+		int canAllocateInLower=vmList[i].canAllocateInLowerHosts;
+		int allocatedHostIndex=-1;
 
-		int allocatedHostId=-1;
-
+		// starts checking from the host with same priority level and keep checking until allocated
 		for(int j=startHost(priorityLevel);j<numOfHost;j++){
-			if(hostList[j].hostPriorityLevel >= priorityLevel){
-				if(hostList[j].capacity >= resDemand){
+			
+			// lower priority level reached and not possible to allocate in lower level hosts
+			if(hostList[j].hostPriorityLevel < priorityLevel && !canAllocateInLower)break;
+
+			if(hostList[j].capacity >= resDemand){
 					hostList[j].capacity -= resDemand;
-					allocatedHostId = hostList[j].hostId;
+					allocatedHostIndex=j;
 					break;
-				}
+			}
+
+		}
+
+		if(allocatedHostIndex!=-1){ // host allocated
+
+			vmHostMap[id]=hostList[allocatedHostIndex].hostId;
+
+			// move the allocated host down the list to maintain the sorted order of hosts
+			for(int j=allocatedHostIndex+1;j<numOfHost;j++){
+				if(hostList[j].hostPriorityLevel<hostList[allocatedHostIndex].hostPriorityLevel||hostList[j].capacity<hostList[allocatedHostIndex].capacity)break;
+				swap(hostList[j],hostList[j-1]);
 			}
 		}
 
-		vmHostMap[id]=allocatedHostId;
+		else{
+			vmHostMap[id]=-1;
+		}
 	}
 }
 
 
 // Prints the allocation Mapping
 void printMapping(){
+	cout<<"\n\n-----VM to Host Mapping-----\n\n";
 	vector<int> unAllocatedVmIds;
 	for(int i=0;i<numOfVM;i++){
 		cout<<"vmId - "<<i<<" "<<"Allocated hostID - "<<vmHostMap[i]<<"\n";

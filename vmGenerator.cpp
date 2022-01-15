@@ -17,7 +17,8 @@ int main(){
 		cout<<i<<" "; // id
 		cout<<500+rn(500)<<" "; // resource demand
 		cout<<rn(3)<<" "; // priority level
-		cout<<rn(100)*rn(10)*rn(10)<<"\n"; // arrival time
+		cout<<rn(30)<<" "; // arrival time
+		cout<<rn(2)-1<<"\n"; // can allocate in lower level hosts 
 	} 
 	
 	

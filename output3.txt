@@ -1,0 +1,653 @@
+-----VM requests In order of processing:-----
+
+VM Information of vmId 76 : 
+resourceDemand = 214
+applicationPriorityLevel = 3
+arrivalTime = 1
+
+VM Information of vmId 31 : 
+resourceDemand = 229
+applicationPriorityLevel = 2
+arrivalTime = 1
+
+VM Information of vmId 94 : 
+resourceDemand = 240
+applicationPriorityLevel = 1
+arrivalTime = 1
+
+VM Information of vmId 38 : 
+resourceDemand = 213
+applicationPriorityLevel = 1
+arrivalTime = 1
+
+VM Information of vmId 95 : 
+resourceDemand = 204
+applicationPriorityLevel = 3
+arrivalTime = 2
+
+VM Information of vmId 58 : 
+resourceDemand = 205
+applicationPriorityLevel = 2
+arrivalTime = 2
+
+VM Information of vmId 70 : 
+resourceDemand = 237
+applicationPriorityLevel = 1
+arrivalTime = 2
+
+VM Information of vmId 52 : 
+resourceDemand = 216
+applicationPriorityLevel = 3
+arrivalTime = 3
+
+VM Information of vmId 9 : 
+resourceDemand = 226
+applicationPriorityLevel = 3
+arrivalTime = 3
+
+VM Information of vmId 98 : 
+resourceDemand = 201
+applicationPriorityLevel = 2
+arrivalTime = 3
+
+VM Information of vmId 48 : 
+resourceDemand = 201
+applicationPriorityLevel = 2
+arrivalTime = 3
+
+VM Information of vmId 82 : 
+resourceDemand = 220
+applicationPriorityLevel = 2
+arrivalTime = 3
+
+VM Information of vmId 62 : 
+resourceDemand = 246
+applicationPriorityLevel = 1
+arrivalTime = 3
+
+VM Information of vmId 85 : 
+resourceDemand = 213
+applicationPriorityLevel = 1
+arrivalTime = 3
+
+VM Information of vmId 73 : 
+resourceDemand = 222
+applicationPriorityLevel = 2
+arrivalTime = 4
+
+VM Information of vmId 6 : 
+resourceDemand = 239
+applicationPriorityLevel = 2
+arrivalTime = 4
+
+VM Information of vmId 71 : 
+resourceDemand = 223
+applicationPriorityLevel = 2
+arrivalTime = 4
+
+VM Information of vmId 45 : 
+resourceDemand = 208
+applicationPriorityLevel = 3
+arrivalTime = 5
+
+VM Information of vmId 67 : 
+resourceDemand = 244
+applicationPriorityLevel = 3
+arrivalTime = 5
+
+VM Information of vmId 59 : 
+resourceDemand = 231
+applicationPriorityLevel = 2
+arrivalTime = 5
+
+VM Information of vmId 18 : 
+resourceDemand = 230
+applicationPriorityLevel = 2
+arrivalTime = 5
+
+VM Information of vmId 44 : 
+resourceDemand = 243
+applicationPriorityLevel = 1
+arrivalTime = 5
+
+VM Information of vmId 47 : 
+resourceDemand = 217
+applicationPriorityLevel = 1
+arrivalTime = 5
+
+VM Information of vmId 91 : 
+resourceDemand = 208
+applicationPriorityLevel = 3
+arrivalTime = 6
+
+VM Information of vmId 15 : 
+resourceDemand = 245
+applicationPriorityLevel = 1
+arrivalTime = 6
+
+VM Information of vmId 13 : 
+resourceDemand = 221
+applicationPriorityLevel = 2
+arrivalTime = 7
+
+VM Information of vmId 51 : 
+resourceDemand = 217
+applicationPriorityLevel = 2
+arrivalTime = 7
+
+VM Information of vmId 74 : 
+resourceDemand = 216
+applicationPriorityLevel = 2
+arrivalTime = 7
+
+VM Information of vmId 68 : 
+resourceDemand = 217
+applicationPriorityLevel = 1
+arrivalTime = 7
+
+VM Information of vmId 29 : 
+resourceDemand = 211
+applicationPriorityLevel = 1
+arrivalTime = 7
+
+VM Information of vmId 81 : 
+resourceDemand = 211
+applicationPriorityLevel = 1
+arrivalTime = 7
+
+VM Information of vmId 27 : 
+resourceDemand = 244
+applicationPriorityLevel = 2
+arrivalTime = 8
+
+VM Information of vmId 1 : 
+resourceDemand = 211
+applicationPriorityLevel = 3
+arrivalTime = 9
+
+VM Information of vmId 35 : 
+resourceDemand = 235
+applicationPriorityLevel = 1
+arrivalTime = 9
+
+VM Information of vmId 77 : 
+resourceDemand = 250
+applicationPriorityLevel = 1
+arrivalTime = 9
+
+VM Information of vmId 97 : 
+resourceDemand = 202
+applicationPriorityLevel = 2
+arrivalTime = 10
+
+VM Information of vmId 43 : 
+resourceDemand = 205
+applicationPriorityLevel = 1
+arrivalTime = 10
+
+VM Information of vmId 23 : 
+resourceDemand = 239
+applicationPriorityLevel = 1
+arrivalTime = 10
+
+VM Information of vmId 66 : 
+resourceDemand = 233
+applicationPriorityLevel = 1
+arrivalTime = 11
+
+VM Information of vmId 25 : 
+resourceDemand = 208
+applicationPriorityLevel = 1
+arrivalTime = 11
+
+VM Information of vmId 34 : 
+resourceDemand = 227
+applicationPriorityLevel = 3
+arrivalTime = 12
+
+VM Information of vmId 5 : 
+resourceDemand = 212
+applicationPriorityLevel = 3
+arrivalTime = 12
+
+VM Information of vmId 40 : 
+resourceDemand = 202
+applicationPriorityLevel = 3
+arrivalTime = 12
+
+VM Information of vmId 93 : 
+resourceDemand = 242
+applicationPriorityLevel = 3
+arrivalTime = 12
+
+VM Information of vmId 14 : 
+resourceDemand = 212
+applicationPriorityLevel = 2
+arrivalTime = 12
+
+VM Information of vmId 54 : 
+resourceDemand = 241
+applicationPriorityLevel = 2
+arrivalTime = 12
+
+VM Information of vmId 96 : 
+resourceDemand = 249
+applicationPriorityLevel = 1
+arrivalTime = 12
+
+VM Information of vmId 87 : 
+resourceDemand = 242
+applicationPriorityLevel = 3
+arrivalTime = 13
+
+VM Information of vmId 33 : 
+resourceDemand = 243
+applicationPriorityLevel = 2
+arrivalTime = 13
+
+VM Information of vmId 30 : 
+resourceDemand = 208
+applicationPriorityLevel = 1
+arrivalTime = 13
+
+VM Information of vmId 10 : 
+resourceDemand = 241
+applicationPriorityLevel = 3
+arrivalTime = 14
+
+VM Information of vmId 57 : 
+resourceDemand = 228
+applicationPriorityLevel = 3
+arrivalTime = 14
+
+VM Information of vmId 80 : 
+resourceDemand = 230
+applicationPriorityLevel = 3
+arrivalTime = 14
+
+VM Information of vmId 78 : 
+resourceDemand = 211
+applicationPriorityLevel = 3
+arrivalTime = 14
+
+VM Information of vmId 37 : 
+resourceDemand = 211
+applicationPriorityLevel = 1
+arrivalTime = 14
+
+VM Information of vmId 65 : 
+resourceDemand = 232
+applicationPriorityLevel = 2
+arrivalTime = 15
+
+VM Information of vmId 79 : 
+resourceDemand = 250
+applicationPriorityLevel = 3
+arrivalTime = 16
+
+VM Information of vmId 72 : 
+resourceDemand = 228
+applicationPriorityLevel = 3
+arrivalTime = 16
+
+VM Information of vmId 92 : 
+resourceDemand = 237
+applicationPriorityLevel = 3
+arrivalTime = 16
+
+VM Information of vmId 3 : 
+resourceDemand = 250
+applicationPriorityLevel = 2
+arrivalTime = 16
+
+VM Information of vmId 0 : 
+resourceDemand = 219
+applicationPriorityLevel = 1
+arrivalTime = 16
+
+VM Information of vmId 50 : 
+resourceDemand = 216
+applicationPriorityLevel = 1
+arrivalTime = 16
+
+VM Information of vmId 75 : 
+resourceDemand = 212
+applicationPriorityLevel = 3
+arrivalTime = 17
+
+VM Information of vmId 8 : 
+resourceDemand = 250
+applicationPriorityLevel = 2
+arrivalTime = 17
+
+VM Information of vmId 11 : 
+resourceDemand = 203
+applicationPriorityLevel = 2
+arrivalTime = 18
+
+VM Information of vmId 17 : 
+resourceDemand = 211
+applicationPriorityLevel = 1
+arrivalTime = 18
+
+VM Information of vmId 83 : 
+resourceDemand = 235
+applicationPriorityLevel = 3
+arrivalTime = 19
+
+VM Information of vmId 21 : 
+resourceDemand = 216
+applicationPriorityLevel = 3
+arrivalTime = 19
+
+VM Information of vmId 64 : 
+resourceDemand = 230
+applicationPriorityLevel = 3
+arrivalTime = 20
+
+VM Information of vmId 7 : 
+resourceDemand = 239
+applicationPriorityLevel = 1
+arrivalTime = 20
+
+VM Information of vmId 2 : 
+resourceDemand = 234
+applicationPriorityLevel = 1
+arrivalTime = 20
+
+VM Information of vmId 36 : 
+resourceDemand = 213
+applicationPriorityLevel = 1
+arrivalTime = 20
+
+VM Information of vmId 86 : 
+resourceDemand = 237
+applicationPriorityLevel = 1
+arrivalTime = 20
+
+VM Information of vmId 24 : 
+resourceDemand = 210
+applicationPriorityLevel = 3
+arrivalTime = 21
+
+VM Information of vmId 99 : 
+resourceDemand = 223
+applicationPriorityLevel = 1
+arrivalTime = 21
+
+VM Information of vmId 89 : 
+resourceDemand = 230
+applicationPriorityLevel = 1
+arrivalTime = 21
+
+VM Information of vmId 69 : 
+resourceDemand = 228
+applicationPriorityLevel = 1
+arrivalTime = 21
+
+VM Information of vmId 26 : 
+resourceDemand = 248
+applicationPriorityLevel = 1
+arrivalTime = 22
+
+VM Information of vmId 60 : 
+resourceDemand = 213
+applicationPriorityLevel = 2
+arrivalTime = 23
+
+VM Information of vmId 84 : 
+resourceDemand = 212
+applicationPriorityLevel = 2
+arrivalTime = 23
+
+VM Information of vmId 32 : 
+resourceDemand = 208
+applicationPriorityLevel = 3
+arrivalTime = 24
+
+VM Information of vmId 46 : 
+resourceDemand = 222
+applicationPriorityLevel = 3
+arrivalTime = 24
+
+VM Information of vmId 16 : 
+resourceDemand = 220
+applicationPriorityLevel = 3
+arrivalTime = 25
+
+VM Information of vmId 61 : 
+resourceDemand = 226
+applicationPriorityLevel = 2
+arrivalTime = 25
+
+VM Information of vmId 42 : 
+resourceDemand = 203
+applicationPriorityLevel = 1
+arrivalTime = 25
+
+VM Information of vmId 49 : 
+resourceDemand = 202
+applicationPriorityLevel = 3
+arrivalTime = 26
+
+VM Information of vmId 55 : 
+resourceDemand = 218
+applicationPriorityLevel = 3
+arrivalTime = 26
+
+VM Information of vmId 19 : 
+resourceDemand = 246
+applicationPriorityLevel = 2
+arrivalTime = 26
+
+VM Information of vmId 12 : 
+resourceDemand = 233
+applicationPriorityLevel = 2
+arrivalTime = 28
+
+VM Information of vmId 39 : 
+resourceDemand = 210
+applicationPriorityLevel = 2
+arrivalTime = 28
+
+VM Information of vmId 63 : 
+resourceDemand = 201
+applicationPriorityLevel = 2
+arrivalTime = 28
+
+VM Information of vmId 56 : 
+resourceDemand = 249
+applicationPriorityLevel = 1
+arrivalTime = 28
+
+VM Information of vmId 53 : 
+resourceDemand = 224
+applicationPriorityLevel = 1
+arrivalTime = 28
+
+VM Information of vmId 90 : 
+resourceDemand = 219
+applicationPriorityLevel = 1
+arrivalTime = 28
+
+VM Information of vmId 88 : 
+resourceDemand = 211
+applicationPriorityLevel = 1
+arrivalTime = 28
+
+VM Information of vmId 28 : 
+resourceDemand = 235
+applicationPriorityLevel = 3
+arrivalTime = 29
+
+VM Information of vmId 22 : 
+resourceDemand = 201
+applicationPriorityLevel = 2
+arrivalTime = 29
+
+VM Information of vmId 20 : 
+resourceDemand = 214
+applicationPriorityLevel = 1
+arrivalTime = 29
+
+VM Information of vmId 4 : 
+resourceDemand = 207
+applicationPriorityLevel = 1
+arrivalTime = 30
+
+VM Information of vmId 41 : 
+resourceDemand = 229
+applicationPriorityLevel = 1
+arrivalTime = 30
+
+
+
+-----Hosts Available:-----
+
+Host Information of hostId 1 : 
+hostPriorityLevel = 3
+capacity = 5000
+
+Host Information of hostId 2 : 
+hostPriorityLevel = 3
+capacity = 5000
+
+Host Information of hostId 3 : 
+hostPriorityLevel = 3
+capacity = 5000
+
+Host Information of hostId 0 : 
+hostPriorityLevel = 2
+capacity = 5000
+
+Host Information of hostId 4 : 
+hostPriorityLevel = 2
+capacity = 5000
+
+Host Information of hostId 5 : 
+hostPriorityLevel = 2
+capacity = 5000
+
+Host Information of hostId 6 : 
+hostPriorityLevel = 1
+capacity = 5000
+
+Host Information of hostId 7 : 
+hostPriorityLevel = 1
+capacity = 5000
+
+Host Information of hostId 8 : 
+hostPriorityLevel = 1
+capacity = 5000
+
+Host Information of hostId 9 : 
+hostPriorityLevel = 1
+capacity = 5000
+
+
+
+-----VM to Host Mapping-----
+
+vmId - 0 Allocated hostID - 9
+vmId - 1 Allocated hostID - 1
+vmId - 2 Allocated hostID - 6
+vmId - 3 Allocated hostID - 0
+vmId - 4 Allocated hostID - 7
+vmId - 5 Allocated hostID - 2
+vmId - 6 Allocated hostID - 0
+vmId - 7 Allocated hostID - 8
+vmId - 8 Allocated hostID - 5
+vmId - 9 Allocated hostID - 2
+vmId - 10 Allocated hostID - 2
+vmId - 11 Allocated hostID - 4
+vmId - 12 Allocated hostID - 0
+vmId - 13 Allocated hostID - 4
+vmId - 14 Allocated hostID - 4
+vmId - 15 Allocated hostID - 9
+vmId - 16 Allocated hostID - 1
+vmId - 17 Allocated hostID - 8
+vmId - 18 Allocated hostID - 4
+vmId - 19 Allocated hostID - 0
+vmId - 20 Allocated hostID - 6
+vmId - 21 Allocated hostID - 1
+vmId - 22 Allocated hostID - 4
+vmId - 23 Allocated hostID - 7
+vmId - 24 Allocated hostID - 3
+vmId - 25 Allocated hostID - 8
+vmId - 26 Allocated hostID - 9
+vmId - 27 Allocated hostID - 0
+vmId - 28 Allocated hostID - 1
+vmId - 29 Allocated hostID - 6
+vmId - 30 Allocated hostID - 9
+vmId - 31 Allocated hostID - 0
+vmId - 32 Allocated hostID - 1
+vmId - 33 Allocated hostID - 5
+vmId - 34 Allocated hostID - 2
+vmId - 35 Allocated hostID - 6
+vmId - 36 Allocated hostID - 7
+vmId - 37 Allocated hostID - 9
+vmId - 38 Allocated hostID - 7
+vmId - 39 Allocated hostID - 5
+vmId - 40 Allocated hostID - 1
+vmId - 41 Allocated hostID - 7
+vmId - 42 Allocated hostID - 9
+vmId - 43 Allocated hostID - 7
+vmId - 44 Allocated hostID - 7
+vmId - 45 Allocated hostID - 3
+vmId - 46 Allocated hostID - 2
+vmId - 47 Allocated hostID - 8
+vmId - 48 Allocated hostID - 5
+vmId - 49 Allocated hostID - 3
+vmId - 50 Allocated hostID - 6
+vmId - 51 Allocated hostID - 5
+vmId - 52 Allocated hostID - 3
+vmId - 53 Allocated hostID - 8
+vmId - 54 Allocated hostID - 4
+vmId - 55 Allocated hostID - 3
+vmId - 56 Allocated hostID - 6
+vmId - 57 Allocated hostID - 2
+vmId - 58 Allocated hostID - 4
+vmId - 59 Allocated hostID - 5
+vmId - 60 Allocated hostID - 4
+vmId - 61 Allocated hostID - 5
+vmId - 62 Allocated hostID - 9
+vmId - 63 Allocated hostID - 4
+vmId - 64 Allocated hostID - 3
+vmId - 65 Allocated hostID - 0
+vmId - 66 Allocated hostID - 7
+vmId - 67 Allocated hostID - 1
+vmId - 68 Allocated hostID - 6
+vmId - 69 Allocated hostID - 9
+vmId - 70 Allocated hostID - 8
+vmId - 71 Allocated hostID - 0
+vmId - 72 Allocated hostID - 3
+vmId - 73 Allocated hostID - 5
+vmId - 74 Allocated hostID - 0
+vmId - 75 Allocated hostID - 2
+vmId - 76 Allocated hostID - 1
+vmId - 77 Allocated hostID - 8
+vmId - 78 Allocated hostID - 3
+vmId - 79 Allocated hostID - 3
+vmId - 80 Allocated hostID - 1
+vmId - 81 Allocated hostID - 9
+vmId - 82 Allocated hostID - 4
+vmId - 83 Allocated hostID - 2
+vmId - 84 Allocated hostID - 4
+vmId - 85 Allocated hostID - 8
+vmId - 86 Allocated hostID - 7
+vmId - 87 Allocated hostID - 1
+vmId - 88 Allocated hostID - 8
+vmId - 89 Allocated hostID - 6
+vmId - 90 Allocated hostID - 8
+vmId - 91 Allocated hostID - 3
+vmId - 92 Allocated hostID - 1
+vmId - 93 Allocated hostID - 3
+vmId - 94 Allocated hostID - 6
+vmId - 95 Allocated hostID - 2
+vmId - 96 Allocated hostID - 6
+vmId - 97 Allocated hostID - 5
+vmId - 98 Allocated hostID - 5
+vmId - 99 Allocated hostID - 7
+
+
+Unallocated VMs are:
