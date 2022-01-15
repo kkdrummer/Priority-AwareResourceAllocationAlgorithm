@@ -1,0 +1,1 @@
+1. Updated Test cases with lesser time srange 2. Vm Requests decreasing order of resource demand condition added 3.Allocating in decreasing order of host capacity 4. Boolean variable added
