@@ -1,0 +1,1242 @@
+----Simulation Started-----
+
+-----Algorithm Disabled-----
+
+Total VM Requests = 10000
+
+Range of Resource Demand = 344 - 1063
+
+Total Host = 20
+
+Host Capacity = 250000
+
+
+-----Performance Metrics At Each second-----
+
+At Time 1: 
+Normal:  Utilization = 0.0133265    Power Consumption = 20.1333
+
+
+At Time 2: 
+Normal:  Utilization = 0.02166    Power Consumption = 20.2166
+
+
+At Time 3: 
+Normal:  Utilization = 0.033839    Power Consumption = 20.3384
+
+
+At Time 4: 
+Normal:  Utilization = 0.0450945    Power Consumption = 20.4509
+
+
+At Time 5: 
+Normal:  Utilization = 0.055503    Power Consumption = 20.555
+
+
+At Time 6: 
+Normal:  Utilization = 0.067786    Power Consumption = 20.6779
+
+
+At Time 7: 
+Normal:  Utilization = 0.0827725    Power Consumption = 20.8277
+
+
+At Time 8: 
+Normal:  Utilization = 0.092715    Power Consumption = 20.9272
+
+
+At Time 9: 
+Normal:  Utilization = 0.103581    Power Consumption = 21.0358
+
+
+At Time 10: 
+Normal:  Utilization = 0.118766    Power Consumption = 21.1877
+
+
+At Time 11: 
+Normal:  Utilization = 0.135282    Power Consumption = 21.3528
+
+
+At Time 12: 
+Normal:  Utilization = 0.149074    Power Consumption = 21.4907
+
+
+At Time 13: 
+Normal:  Utilization = 0.162811    Power Consumption = 21.6281
+
+
+At Time 14: 
+Normal:  Utilization = 0.172654    Power Consumption = 21.7265
+
+
+At Time 15: 
+Normal:  Utilization = 0.1844    Power Consumption = 21.844
+
+
+At Time 16: 
+Normal:  Utilization = 0.197158    Power Consumption = 21.9716
+
+
+At Time 17: 
+Normal:  Utilization = 0.207627    Power Consumption = 22.0763
+
+
+At Time 18: 
+Normal:  Utilization = 0.221685    Power Consumption = 22.2169
+
+
+At Time 19: 
+Normal:  Utilization = 0.233699    Power Consumption = 22.337
+
+
+At Time 20: 
+Normal:  Utilization = 0.246556    Power Consumption = 22.4656
+
+
+At Time 21: 
+Normal:  Utilization = 0.261488    Power Consumption = 22.6149
+
+
+At Time 22: 
+Normal:  Utilization = 0.274432    Power Consumption = 22.7443
+
+
+At Time 23: 
+Normal:  Utilization = 0.284751    Power Consumption = 22.8475
+
+
+At Time 24: 
+Normal:  Utilization = 0.298162    Power Consumption = 22.9816
+
+
+At Time 25: 
+Normal:  Utilization = 0.30773    Power Consumption = 23.0773
+
+
+At Time 26: 
+Normal:  Utilization = 0.318494    Power Consumption = 23.1849
+
+
+At Time 27: 
+Normal:  Utilization = 0.329045    Power Consumption = 23.2904
+
+
+At Time 28: 
+Normal:  Utilization = 0.339541    Power Consumption = 23.3954
+
+
+At Time 29: 
+Normal:  Utilization = 0.349008    Power Consumption = 23.4901
+
+
+At Time 30: 
+Normal:  Utilization = 0.35931    Power Consumption = 23.5931
+
+
+At Time 31: 
+Normal:  Utilization = 0.37252    Power Consumption = 23.7252
+
+
+At Time 32: 
+Normal:  Utilization = 0.387319    Power Consumption = 23.8732
+
+
+At Time 33: 
+Normal:  Utilization = 0.400823    Power Consumption = 24.0082
+
+
+At Time 34: 
+Normal:  Utilization = 0.41219    Power Consumption = 24.1219
+
+
+At Time 35: 
+Normal:  Utilization = 0.421888    Power Consumption = 24.2189
+
+
+At Time 36: 
+Normal:  Utilization = 0.432763    Power Consumption = 24.3276
+
+
+At Time 37: 
+Normal:  Utilization = 0.445105    Power Consumption = 24.451
+
+
+At Time 38: 
+Normal:  Utilization = 0.457343    Power Consumption = 24.5734
+
+
+At Time 39: 
+Normal:  Utilization = 0.47148    Power Consumption = 24.7148
+
+
+At Time 40: 
+Normal:  Utilization = 0.482893    Power Consumption = 24.8289
+
+
+At Time 41: 
+Normal:  Utilization = 0.491486    Power Consumption = 24.9149
+
+
+At Time 42: 
+Normal:  Utilization = 0.499629    Power Consumption = 24.9963
+
+
+At Time 43: 
+Normal:  Utilization = 0.51339    Power Consumption = 25.1339
+
+
+At Time 44: 
+Normal:  Utilization = 0.522235    Power Consumption = 25.2223
+
+
+At Time 45: 
+Normal:  Utilization = 0.53247    Power Consumption = 25.3247
+
+
+At Time 46: 
+Normal:  Utilization = 0.54797    Power Consumption = 25.4797
+
+
+At Time 47: 
+Normal:  Utilization = 0.56031    Power Consumption = 25.6031
+
+
+At Time 48: 
+Normal:  Utilization = 0.571685    Power Consumption = 25.7169
+
+
+At Time 49: 
+Normal:  Utilization = 0.585195    Power Consumption = 25.852
+
+
+At Time 50: 
+Normal:  Utilization = 0.597736    Power Consumption = 25.9774
+
+
+At Time 51: 
+Normal:  Utilization = 0.608934    Power Consumption = 26.0893
+
+
+At Time 52: 
+Normal:  Utilization = 0.622541    Power Consumption = 26.2254
+
+
+At Time 53: 
+Normal:  Utilization = 0.635529    Power Consumption = 26.3553
+
+
+At Time 54: 
+Normal:  Utilization = 0.646064    Power Consumption = 26.4606
+
+
+At Time 55: 
+Normal:  Utilization = 0.657423    Power Consumption = 26.5742
+
+
+At Time 56: 
+Normal:  Utilization = 0.669351    Power Consumption = 26.6935
+
+
+At Time 57: 
+Normal:  Utilization = 0.681593    Power Consumption = 26.8159
+
+
+At Time 58: 
+Normal:  Utilization = 0.694659    Power Consumption = 26.9466
+
+
+At Time 59: 
+Normal:  Utilization = 0.704469    Power Consumption = 27.0447
+
+
+At Time 60: 
+Normal:  Utilization = 0.713499    Power Consumption = 27.135
+
+
+At Time 61: 
+Normal:  Utilization = 0.722314    Power Consumption = 27.2231
+
+
+At Time 62: 
+Normal:  Utilization = 0.73493    Power Consumption = 27.3493
+
+
+At Time 63: 
+Normal:  Utilization = 0.749094    Power Consumption = 27.4909
+
+
+At Time 64: 
+Normal:  Utilization = 0.76269    Power Consumption = 27.6269
+
+
+At Time 65: 
+Normal:  Utilization = 0.775984    Power Consumption = 27.7598
+
+
+At Time 66: 
+Normal:  Utilization = 0.783875    Power Consumption = 27.8388
+
+
+At Time 67: 
+Normal:  Utilization = 0.796863    Power Consumption = 27.9686
+
+
+At Time 68: 
+Normal:  Utilization = 0.808966    Power Consumption = 28.0897
+
+
+At Time 69: 
+Normal:  Utilization = 0.819088    Power Consumption = 28.1909
+
+
+At Time 70: 
+Normal:  Utilization = 0.832913    Power Consumption = 28.3291
+
+
+At Time 71: 
+Normal:  Utilization = 0.843927    Power Consumption = 28.4393
+
+
+At Time 72: 
+Normal:  Utilization = 0.855082    Power Consumption = 28.5508
+
+
+At Time 73: 
+Normal:  Utilization = 0.870118    Power Consumption = 28.7012
+
+
+At Time 74: 
+Normal:  Utilization = 0.882976    Power Consumption = 28.8298
+
+
+At Time 75: 
+Normal:  Utilization = 0.896444    Power Consumption = 28.9644
+
+
+At Time 76: 
+Normal:  Utilization = 0.907784    Power Consumption = 29.0778
+
+
+At Time 77: 
+Normal:  Utilization = 0.922696    Power Consumption = 29.227
+
+
+At Time 78: 
+Normal:  Utilization = 0.935045    Power Consumption = 29.3505
+
+
+At Time 79: 
+Normal:  Utilization = 0.94612    Power Consumption = 29.4612
+
+
+At Time 80: 
+Normal:  Utilization = 0.957347    Power Consumption = 29.5735
+
+
+At Time 81: 
+Normal:  Utilization = 0.970643    Power Consumption = 29.7064
+
+
+At Time 82: 
+Normal:  Utilization = 0.980685    Power Consumption = 29.8069
+
+
+At Time 83: 
+Normal:  Utilization = 0.993174    Power Consumption = 29.9317
+
+
+At Time 84: 
+Normal:  Utilization = 1.00188    Power Consumption = 30.0188
+
+
+At Time 85: 
+Normal:  Utilization = 1.01757    Power Consumption = 30.1757
+
+
+At Time 86: 
+Normal:  Utilization = 1.02674    Power Consumption = 30.2674
+
+
+At Time 87: 
+Normal:  Utilization = 1.0355    Power Consumption = 30.355
+
+
+At Time 88: 
+Normal:  Utilization = 1.04874    Power Consumption = 30.4874
+
+
+At Time 89: 
+Normal:  Utilization = 1.06148    Power Consumption = 30.6148
+
+
+At Time 90: 
+Normal:  Utilization = 1.07123    Power Consumption = 30.7124
+
+
+At Time 91: 
+Normal:  Utilization = 1.07895    Power Consumption = 30.7895
+
+
+At Time 92: 
+Normal:  Utilization = 1.0918    Power Consumption = 30.918
+
+
+At Time 93: 
+Normal:  Utilization = 1.10104    Power Consumption = 31.0104
+
+
+At Time 94: 
+Normal:  Utilization = 1.10819    Power Consumption = 31.0819
+
+
+At Time 95: 
+Normal:  Utilization = 1.11919    Power Consumption = 31.1919
+
+
+At Time 96: 
+Normal:  Utilization = 1.13062    Power Consumption = 31.3062
+
+
+At Time 97: 
+Normal:  Utilization = 1.14025    Power Consumption = 31.4025
+
+
+At Time 98: 
+Normal:  Utilization = 1.14951    Power Consumption = 31.4951
+
+
+At Time 99: 
+Normal:  Utilization = 1.16105    Power Consumption = 31.6105
+
+
+At Time 100: 
+Normal:  Utilization = 1.17289    Power Consumption = 31.7289
+
+
+At Time 101: 
+Normal:  Utilization = 1.18987    Power Consumption = 31.8987
+
+
+At Time 102: 
+Normal:  Utilization = 1.20078    Power Consumption = 32.0078
+
+
+At Time 103: 
+Normal:  Utilization = 1.21391    Power Consumption = 32.1391
+
+
+At Time 104: 
+Normal:  Utilization = 1.22842    Power Consumption = 32.2841
+
+
+At Time 105: 
+Normal:  Utilization = 1.24108    Power Consumption = 32.4108
+
+
+At Time 106: 
+Normal:  Utilization = 1.25207    Power Consumption = 32.5207
+
+
+At Time 107: 
+Normal:  Utilization = 1.26503    Power Consumption = 32.6504
+
+
+At Time 108: 
+Normal:  Utilization = 1.27631    Power Consumption = 32.7631
+
+
+At Time 109: 
+Normal:  Utilization = 1.28913    Power Consumption = 32.8913
+
+
+At Time 110: 
+Normal:  Utilization = 1.30287    Power Consumption = 33.0287
+
+
+At Time 111: 
+Normal:  Utilization = 1.3099    Power Consumption = 33.099
+
+
+At Time 112: 
+Normal:  Utilization = 1.32708    Power Consumption = 33.2708
+
+
+At Time 113: 
+Normal:  Utilization = 1.33932    Power Consumption = 33.3932
+
+
+At Time 114: 
+Normal:  Utilization = 1.34997    Power Consumption = 33.4997
+
+
+At Time 115: 
+Normal:  Utilization = 1.36818    Power Consumption = 33.6818
+
+
+At Time 116: 
+Normal:  Utilization = 1.37761    Power Consumption = 33.7761
+
+
+At Time 117: 
+Normal:  Utilization = 1.3903    Power Consumption = 33.903
+
+
+At Time 118: 
+Normal:  Utilization = 1.40323    Power Consumption = 34.0323
+
+
+At Time 119: 
+Normal:  Utilization = 1.41508    Power Consumption = 34.1508
+
+
+At Time 120: 
+Normal:  Utilization = 1.42415    Power Consumption = 34.2415
+
+
+At Time 121: 
+Normal:  Utilization = 1.43954    Power Consumption = 34.3954
+
+
+At Time 122: 
+Normal:  Utilization = 1.4543    Power Consumption = 34.543
+
+
+At Time 123: 
+Normal:  Utilization = 1.46589    Power Consumption = 34.6589
+
+
+At Time 124: 
+Normal:  Utilization = 1.47533    Power Consumption = 34.7533
+
+
+At Time 125: 
+Normal:  Utilization = 1.48379    Power Consumption = 34.8379
+
+
+At Time 126: 
+Normal:  Utilization = 1.49964    Power Consumption = 34.9964
+
+
+At Time 127: 
+Normal:  Utilization = 1.50994    Power Consumption = 35.0994
+
+
+At Time 128: 
+Normal:  Utilization = 1.5229    Power Consumption = 35.229
+
+
+At Time 129: 
+Normal:  Utilization = 1.53219    Power Consumption = 35.3219
+
+
+At Time 130: 
+Normal:  Utilization = 1.5448    Power Consumption = 35.448
+
+
+At Time 131: 
+Normal:  Utilization = 1.55605    Power Consumption = 35.5605
+
+
+At Time 132: 
+Normal:  Utilization = 1.57022    Power Consumption = 35.7022
+
+
+At Time 133: 
+Normal:  Utilization = 1.57951    Power Consumption = 35.7951
+
+
+At Time 134: 
+Normal:  Utilization = 1.59248    Power Consumption = 35.9248
+
+
+At Time 135: 
+Normal:  Utilization = 1.60677    Power Consumption = 36.0677
+
+
+At Time 136: 
+Normal:  Utilization = 1.61844    Power Consumption = 36.1844
+
+
+At Time 137: 
+Normal:  Utilization = 1.62828    Power Consumption = 36.2828
+
+
+At Time 138: 
+Normal:  Utilization = 1.63725    Power Consumption = 36.3725
+
+
+At Time 139: 
+Normal:  Utilization = 1.64792    Power Consumption = 36.4792
+
+
+At Time 140: 
+Normal:  Utilization = 1.65998    Power Consumption = 36.5998
+
+
+At Time 141: 
+Normal:  Utilization = 1.67227    Power Consumption = 36.7227
+
+
+At Time 142: 
+Normal:  Utilization = 1.68276    Power Consumption = 36.8276
+
+
+At Time 143: 
+Normal:  Utilization = 1.69414    Power Consumption = 36.9414
+
+
+At Time 144: 
+Normal:  Utilization = 1.70284    Power Consumption = 37.0284
+
+
+At Time 145: 
+Normal:  Utilization = 1.71598    Power Consumption = 37.1598
+
+
+At Time 146: 
+Normal:  Utilization = 1.72743    Power Consumption = 37.2743
+
+
+At Time 147: 
+Normal:  Utilization = 1.73729    Power Consumption = 37.3729
+
+
+At Time 148: 
+Normal:  Utilization = 1.74757    Power Consumption = 37.4757
+
+
+At Time 149: 
+Normal:  Utilization = 1.76073    Power Consumption = 37.6073
+
+
+At Time 150: 
+Normal:  Utilization = 1.77093    Power Consumption = 37.7093
+
+
+At Time 151: 
+Normal:  Utilization = 1.78146    Power Consumption = 37.8145
+
+
+At Time 152: 
+Normal:  Utilization = 1.79362    Power Consumption = 37.9362
+
+
+At Time 153: 
+Normal:  Utilization = 1.80471    Power Consumption = 38.0471
+
+
+At Time 154: 
+Normal:  Utilization = 1.8151    Power Consumption = 38.151
+
+
+At Time 155: 
+Normal:  Utilization = 1.82558    Power Consumption = 38.2558
+
+
+At Time 156: 
+Normal:  Utilization = 1.83682    Power Consumption = 38.3682
+
+
+At Time 157: 
+Normal:  Utilization = 1.849    Power Consumption = 38.49
+
+
+At Time 158: 
+Normal:  Utilization = 1.86087    Power Consumption = 38.6087
+
+
+At Time 159: 
+Normal:  Utilization = 1.87359    Power Consumption = 38.7359
+
+
+At Time 160: 
+Normal:  Utilization = 1.88594    Power Consumption = 38.8594
+
+
+At Time 161: 
+Normal:  Utilization = 1.89702    Power Consumption = 38.9702
+
+
+At Time 162: 
+Normal:  Utilization = 1.90636    Power Consumption = 39.0636
+
+
+At Time 163: 
+Normal:  Utilization = 1.91874    Power Consumption = 39.1874
+
+
+At Time 164: 
+Normal:  Utilization = 1.92732    Power Consumption = 39.2732
+
+
+At Time 165: 
+Normal:  Utilization = 1.93705    Power Consumption = 39.3705
+
+
+At Time 166: 
+Normal:  Utilization = 1.9494    Power Consumption = 39.494
+
+
+At Time 167: 
+Normal:  Utilization = 1.96439    Power Consumption = 39.6439
+
+
+At Time 168: 
+Normal:  Utilization = 1.97701    Power Consumption = 39.7701
+
+
+At Time 169: 
+Normal:  Utilization = 1.98689    Power Consumption = 39.8689
+
+
+At Time 170: 
+Normal:  Utilization = 1.99854    Power Consumption = 39.9854
+
+
+At Time 171: 
+Normal:  Utilization = 2.0091    Power Consumption = 40.091
+
+
+At Time 172: 
+Normal:  Utilization = 2.01831    Power Consumption = 40.1831
+
+
+At Time 173: 
+Normal:  Utilization = 2.03041    Power Consumption = 40.3041
+
+
+At Time 174: 
+Normal:  Utilization = 2.0428    Power Consumption = 40.428
+
+
+At Time 175: 
+Normal:  Utilization = 2.05595    Power Consumption = 40.5595
+
+
+At Time 176: 
+Normal:  Utilization = 2.06599    Power Consumption = 40.6599
+
+
+At Time 177: 
+Normal:  Utilization = 2.07648    Power Consumption = 40.7648
+
+
+At Time 178: 
+Normal:  Utilization = 2.08427    Power Consumption = 40.8427
+
+
+At Time 179: 
+Normal:  Utilization = 2.09494    Power Consumption = 40.9494
+
+
+At Time 180: 
+Normal:  Utilization = 2.10919    Power Consumption = 41.0919
+
+
+At Time 181: 
+Normal:  Utilization = 2.11825    Power Consumption = 41.1825
+
+
+At Time 182: 
+Normal:  Utilization = 2.12796    Power Consumption = 41.2796
+
+
+At Time 183: 
+Normal:  Utilization = 2.14005    Power Consumption = 41.4005
+
+
+At Time 184: 
+Normal:  Utilization = 2.15232    Power Consumption = 41.5232
+
+
+At Time 185: 
+Normal:  Utilization = 2.16505    Power Consumption = 41.6505
+
+
+At Time 186: 
+Normal:  Utilization = 2.17787    Power Consumption = 41.7787
+
+
+At Time 187: 
+Normal:  Utilization = 2.18791    Power Consumption = 41.8791
+
+
+At Time 188: 
+Normal:  Utilization = 2.20217    Power Consumption = 42.0217
+
+
+At Time 189: 
+Normal:  Utilization = 2.20967    Power Consumption = 42.0967
+
+
+At Time 190: 
+Normal:  Utilization = 2.22432    Power Consumption = 42.2432
+
+
+At Time 191: 
+Normal:  Utilization = 2.23927    Power Consumption = 42.3927
+
+
+At Time 192: 
+Normal:  Utilization = 2.25176    Power Consumption = 42.5176
+
+
+At Time 193: 
+Normal:  Utilization = 2.26709    Power Consumption = 42.6709
+
+
+At Time 194: 
+Normal:  Utilization = 2.2809    Power Consumption = 42.809
+
+
+At Time 195: 
+Normal:  Utilization = 2.29345    Power Consumption = 42.9345
+
+
+At Time 196: 
+Normal:  Utilization = 2.30638    Power Consumption = 43.0637
+
+
+At Time 197: 
+Normal:  Utilization = 2.31763    Power Consumption = 43.1762
+
+
+At Time 198: 
+Normal:  Utilization = 2.3277    Power Consumption = 43.277
+
+
+At Time 199: 
+Normal:  Utilization = 2.34043    Power Consumption = 43.4043
+
+
+At Time 200: 
+Normal:  Utilization = 2.3542    Power Consumption = 43.5421
+
+
+At Time 201: 
+Normal:  Utilization = 2.36727    Power Consumption = 43.6727
+
+
+At Time 202: 
+Normal:  Utilization = 2.37762    Power Consumption = 43.7762
+
+
+At Time 203: 
+Normal:  Utilization = 2.38863    Power Consumption = 43.8863
+
+
+At Time 204: 
+Normal:  Utilization = 2.39901    Power Consumption = 43.9901
+
+
+At Time 205: 
+Normal:  Utilization = 2.41016    Power Consumption = 44.1016
+
+
+At Time 206: 
+Normal:  Utilization = 2.42308    Power Consumption = 44.2308
+
+
+At Time 207: 
+Normal:  Utilization = 2.44001    Power Consumption = 44.4001
+
+
+At Time 208: 
+Normal:  Utilization = 2.45352    Power Consumption = 44.5352
+
+
+At Time 209: 
+Normal:  Utilization = 2.46598    Power Consumption = 44.6598
+
+
+At Time 210: 
+Normal:  Utilization = 2.47282    Power Consumption = 44.7282
+
+
+At Time 211: 
+Normal:  Utilization = 2.48219    Power Consumption = 44.8219
+
+
+At Time 212: 
+Normal:  Utilization = 2.49318    Power Consumption = 44.9318
+
+
+At Time 213: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 214: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 215: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 216: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 217: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 218: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 219: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 220: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 221: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 222: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 223: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 224: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 225: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 226: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 227: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 228: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 229: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 230: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 231: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 232: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 233: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 234: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 235: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 236: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 237: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 238: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 239: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 240: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 241: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 242: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 243: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 244: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 245: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 246: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 247: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 248: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 249: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 250: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 251: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 252: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 253: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 254: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 255: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 256: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 257: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 258: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 259: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 260: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 261: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 262: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 263: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 264: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 265: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 266: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 267: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 268: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 269: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 270: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 271: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 272: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 273: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 274: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 275: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 276: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 277: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 278: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 279: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 280: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 281: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 282: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 283: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 284: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 285: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 286: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 287: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 288: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 289: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 290: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 291: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 292: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 293: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 294: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 295: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 296: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 297: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 298: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 299: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+At Time 300: 
+Normal:  Utilization = 2.49937    Power Consumption = 44.9937
+
+
+
+
+-----Average Values:-----
+
+Average Utilization for Normal hosts = 1.62285
+
+Average Power Consumption for Normal hosts = 36.2285
+
+
+
+-----VM Application Allocation Rates:-----
+
+Normal: 
+Total Requests = 3399
+Allocated Requests = 2395
+Allocation Rate =70.4619%
+
+Critical: 
+Total Requests = 3384
+Allocated Requests = 2437
+Allocation Rate =72.0154%
+
+Highly-Critical: 
+Total Requests = 3217
+Allocated Requests = 2296
+Allocation Rate =71.3708%
+

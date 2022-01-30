@@ -1,0 +1,82 @@
+----Simulation Started-----
+
+-----Algorithm Disabled-----
+
+Total VM Requests = 10
+
+Range of Resource Demand = 206 - 243
+
+Total Host = 10
+
+Host Capacity = 5000
+
+
+-----Performance Metrics At Each second-----
+
+At Time 1: 
+Normal:  Utilization = 0    Power Consumption = 20
+
+
+At Time 2: 
+Normal:  Utilization = 0    Power Consumption = 20
+
+
+At Time 3: 
+Normal:  Utilization = 0.0219    Power Consumption = 20.219
+
+
+At Time 4: 
+Normal:  Utilization = 0.0455    Power Consumption = 20.455
+
+
+At Time 5: 
+Normal:  Utilization = 0.0559    Power Consumption = 20.559
+
+
+At Time 6: 
+Normal:  Utilization = 0.0559    Power Consumption = 20.559
+
+
+At Time 7: 
+Normal:  Utilization = 0.09095    Power Consumption = 20.9095
+
+
+At Time 8: 
+Normal:  Utilization = 0.09095    Power Consumption = 20.9095
+
+
+At Time 9: 
+Normal:  Utilization = 0.10195    Power Consumption = 21.0195
+
+
+At Time 10: 
+Normal:  Utilization = 0.11355    Power Consumption = 21.1355
+
+
+
+
+-----Average Values:-----
+
+Average Utilization for Normal hosts = 0.05766
+
+Average Power Consumption for Normal hosts = 20.5766
+
+
+
+-----VM Application Allocation Rates:-----
+
+Normal: 
+Total Requests = 2
+Allocated Requests = 2
+Allocation Rate =100%
+
+Critical: 
+Total Requests = 6
+Allocated Requests = 6
+Allocation Rate =100%
+
+Highly-Critical: 
+Total Requests = 2
+Allocated Requests = 2
+Allocation Rate =100%
+

@@ -1,0 +1,150 @@
+----Simulation Started-----
+
+-----Algorithm Enabled-----
+
+Total VM Requests = 10
+
+Range of Resource Demand = 203 - 244
+
+Total Host = 10
+
+Host Capacity = 5000
+
+
+-----Performance Metrics At Each second-----
+
+At Time 1: 
+Normal:  Utilization = 0.0122    Power Consumption = 20.122
+
+
+Critical:  Utilization = 0.0151333    Power Consumption = 20.1513
+
+
+Highly-Critical:  Utilization = 0    Power Consumption = 20
+
+
+At Time 2: 
+Normal:  Utilization = 0.0122    Power Consumption = 20.122
+
+
+Critical:  Utilization = 0.0151333    Power Consumption = 20.1513
+
+
+Highly-Critical:  Utilization = 0    Power Consumption = 20
+
+
+At Time 3: 
+Normal:  Utilization = 0.0122    Power Consumption = 20.122
+
+
+Critical:  Utilization = 0.0151333    Power Consumption = 20.1513
+
+
+Highly-Critical:  Utilization = 0.0135333    Power Consumption = 20.1353
+
+
+At Time 4: 
+Normal:  Utilization = 0.0122    Power Consumption = 20.122
+
+
+Critical:  Utilization = 0.0296    Power Consumption = 20.296
+
+
+Highly-Critical:  Utilization = 0.0135333    Power Consumption = 20.1353
+
+
+At Time 5: 
+Normal:  Utilization = 0.0122    Power Consumption = 20.122
+
+
+Critical:  Utilization = 0.0296    Power Consumption = 20.296
+
+
+Highly-Critical:  Utilization = 0.0295333    Power Consumption = 20.2953
+
+
+At Time 6: 
+Normal:  Utilization = 0.0122    Power Consumption = 20.122
+
+
+Critical:  Utilization = 0.0296    Power Consumption = 20.296
+
+
+Highly-Critical:  Utilization = 0.0295333    Power Consumption = 20.2953
+
+
+At Time 7: 
+Normal:  Utilization = 0.0122    Power Consumption = 20.122
+
+
+Critical:  Utilization = 0.0296    Power Consumption = 20.296
+
+
+Highly-Critical:  Utilization = 0.0295333    Power Consumption = 20.2953
+
+
+At Time 8: 
+Normal:  Utilization = 0.02285    Power Consumption = 20.2285
+
+
+Critical:  Utilization = 0.0296    Power Consumption = 20.296
+
+
+Highly-Critical:  Utilization = 0.0295333    Power Consumption = 20.2953
+
+
+At Time 9: 
+Normal:  Utilization = 0.02285    Power Consumption = 20.2285
+
+
+Critical:  Utilization = 0.0296    Power Consumption = 20.296
+
+
+Highly-Critical:  Utilization = 0.0580667    Power Consumption = 20.5807
+
+
+At Time 10: 
+Normal:  Utilization = 0.03305    Power Consumption = 20.3305
+
+
+Critical:  Utilization = 0.0451333    Power Consumption = 20.4513
+
+
+Highly-Critical:  Utilization = 0.0580667    Power Consumption = 20.5807
+
+
+
+
+-----Average Values:-----
+
+Average Utilization for Normal hosts = 0.016415
+
+Average Power Consumption for Normal hosts = 20.1641
+
+Average Utilization for Critical hosts = 0.0268133
+
+Average Power Consumption for Critical hosts = 20.2681
+
+Average Utilization for Highly-Critical hosts = 0.0261333
+
+Average Power Consumption for Highly-Critical hosts = 20.2613
+
+
+
+-----VM Application Allocation Rates:-----
+
+Normal: 
+Total Requests = 3
+Allocated Requests = 3
+Allocation Rate =100%
+
+Critical: 
+Total Requests = 3
+Allocated Requests = 3
+Allocation Rate =100%
+
+Highly-Critical: 
+Total Requests = 4
+Allocated Requests = 4
+Allocation Rate =100%
+

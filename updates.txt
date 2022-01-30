@@ -1,1 +1,7 @@
-1. Updated Test cases with lesser time srange 2. Vm Requests decreasing order of resource demand condition added 3.Allocating in decreasing order of host capacity 4. Boolean variable added
+1. Calculate Parameters like Utilization for different priority levels
+2. Calculate Energy Consumption from Utilization with respect to time
+3. Allocating in decreasing order of host capacity to minimize number of Hosts occupied
+4. Separate directories for Input and Output file.
+5. Removed .exe from push
+6. Acceptance Rate For different priority Vm application requests.
+7. Separate code files for two versions.

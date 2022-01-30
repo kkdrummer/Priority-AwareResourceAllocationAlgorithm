@@ -1,0 +1,242 @@
+----Simulation Started-----
+
+-----Algorithm Disabled-----
+
+Total VM Requests = 50000
+
+Range of Resource Demand = 308 - 397
+
+Total Host = 30
+
+Host Capacity = 500000
+
+
+-----Performance Metrics At Each second-----
+
+At Time 1: 
+Normal:  Utilization = 0.0685254    Power Consumption = 20.6853
+
+
+At Time 2: 
+Normal:  Utilization = 0.138788    Power Consumption = 21.3879
+
+
+At Time 3: 
+Normal:  Utilization = 0.210745    Power Consumption = 22.1075
+
+
+At Time 4: 
+Normal:  Utilization = 0.283361    Power Consumption = 22.8336
+
+
+At Time 5: 
+Normal:  Utilization = 0.354433    Power Consumption = 23.5443
+
+
+At Time 6: 
+Normal:  Utilization = 0.422016    Power Consumption = 24.2202
+
+
+At Time 7: 
+Normal:  Utilization = 0.496412    Power Consumption = 24.9641
+
+
+At Time 8: 
+Normal:  Utilization = 0.565809    Power Consumption = 25.6581
+
+
+At Time 9: 
+Normal:  Utilization = 0.639517    Power Consumption = 26.3952
+
+
+At Time 10: 
+Normal:  Utilization = 0.708252    Power Consumption = 27.0825
+
+
+At Time 11: 
+Normal:  Utilization = 0.779003    Power Consumption = 27.79
+
+
+At Time 12: 
+Normal:  Utilization = 0.853229    Power Consumption = 28.5323
+
+
+At Time 13: 
+Normal:  Utilization = 0.924216    Power Consumption = 29.2422
+
+
+At Time 14: 
+Normal:  Utilization = 0.99383    Power Consumption = 29.9383
+
+
+At Time 15: 
+Normal:  Utilization = 1.06424    Power Consumption = 30.6424
+
+
+At Time 16: 
+Normal:  Utilization = 1.13568    Power Consumption = 31.3568
+
+
+At Time 17: 
+Normal:  Utilization = 1.20917    Power Consumption = 32.0917
+
+
+At Time 18: 
+Normal:  Utilization = 1.27818    Power Consumption = 32.7818
+
+
+At Time 19: 
+Normal:  Utilization = 1.34969    Power Consumption = 33.4969
+
+
+At Time 20: 
+Normal:  Utilization = 1.4214    Power Consumption = 34.214
+
+
+At Time 21: 
+Normal:  Utilization = 1.49444    Power Consumption = 34.9444
+
+
+At Time 22: 
+Normal:  Utilization = 1.56456    Power Consumption = 35.6456
+
+
+At Time 23: 
+Normal:  Utilization = 1.6352    Power Consumption = 36.352
+
+
+At Time 24: 
+Normal:  Utilization = 1.70319    Power Consumption = 37.0319
+
+
+At Time 25: 
+Normal:  Utilization = 1.77227    Power Consumption = 37.7227
+
+
+At Time 26: 
+Normal:  Utilization = 1.84577    Power Consumption = 38.4577
+
+
+At Time 27: 
+Normal:  Utilization = 1.91791    Power Consumption = 39.1791
+
+
+At Time 28: 
+Normal:  Utilization = 1.98592    Power Consumption = 39.8592
+
+
+At Time 29: 
+Normal:  Utilization = 2.0545    Power Consumption = 40.545
+
+
+At Time 30: 
+Normal:  Utilization = 2.12448    Power Consumption = 41.2448
+
+
+At Time 31: 
+Normal:  Utilization = 2.19    Power Consumption = 41.9
+
+
+At Time 32: 
+Normal:  Utilization = 2.2582    Power Consumption = 42.582
+
+
+At Time 33: 
+Normal:  Utilization = 2.3258    Power Consumption = 43.258
+
+
+At Time 34: 
+Normal:  Utilization = 2.39429    Power Consumption = 43.9429
+
+
+At Time 35: 
+Normal:  Utilization = 2.46512    Power Consumption = 44.6512
+
+
+At Time 36: 
+Normal:  Utilization = 2.54185    Power Consumption = 45.4185
+
+
+At Time 37: 
+Normal:  Utilization = 2.60807    Power Consumption = 46.0807
+
+
+At Time 38: 
+Normal:  Utilization = 2.67979    Power Consumption = 46.7979
+
+
+At Time 39: 
+Normal:  Utilization = 2.74819    Power Consumption = 47.4819
+
+
+At Time 40: 
+Normal:  Utilization = 2.81691    Power Consumption = 48.1691
+
+
+At Time 41: 
+Normal:  Utilization = 2.88981    Power Consumption = 48.8981
+
+
+At Time 42: 
+Normal:  Utilization = 2.96543    Power Consumption = 49.6543
+
+
+At Time 43: 
+Normal:  Utilization = 2.99921    Power Consumption = 49.9921
+
+
+At Time 44: 
+Normal:  Utilization = 2.99921    Power Consumption = 49.9921
+
+
+At Time 45: 
+Normal:  Utilization = 2.99921    Power Consumption = 49.9921
+
+
+At Time 46: 
+Normal:  Utilization = 2.99921    Power Consumption = 49.9921
+
+
+At Time 47: 
+Normal:  Utilization = 2.99921    Power Consumption = 49.9921
+
+
+At Time 48: 
+Normal:  Utilization = 2.99921    Power Consumption = 49.9921
+
+
+At Time 49: 
+Normal:  Utilization = 2.99921    Power Consumption = 49.9921
+
+
+At Time 50: 
+Normal:  Utilization = 2.99921    Power Consumption = 49.9921
+
+
+
+
+-----Average Values:-----
+
+Average Utilization for Normal hosts = 1.75744
+
+Average Power Consumption for Normal hosts = 37.5744
+
+
+
+-----VM Application Allocation Rates:-----
+
+Normal: 
+Total Requests = 16534
+Allocated Requests = 14054
+Allocation Rate =85.0006%
+
+Critical: 
+Total Requests = 16917
+Allocated Requests = 14433
+Allocation Rate =85.3165%
+
+Highly-Critical: 
+Total Requests = 16549
+Allocated Requests = 14030
+Allocation Rate =84.7785%
+

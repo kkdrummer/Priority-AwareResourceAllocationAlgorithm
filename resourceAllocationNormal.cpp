@@ -21,7 +21,7 @@ struct vm{
 	}
 	bool operator < (const vm& other) const{
 		// arrange in order of lesser arrival time, then greater priority, then lower host allocation possibility, then greater resource demand
-		return make_pair(make_pair(arrivalTime,-applicationPriorityLevel),make_pair(canAllocateInLowerHosts,-resourceDemand))<make_pair(make_pair(other.arrivalTime,-other.applicationPriorityLevel),make_pair(other.canAllocateInLowerHosts,-other.resourceDemand));
+		return make_pair(make_pair(arrivalTime,0),make_pair(canAllocateInLowerHosts,-resourceDemand))<make_pair(make_pair(other.arrivalTime,0),make_pair(other.canAllocateInLowerHosts,-other.resourceDemand));
 	}
 };
 
@@ -65,7 +65,7 @@ int totalRequests[4];
 int currentTime;
 double utilization[3001][4];
 string priorityNames[4]={"", "Normal", "Critical", "Highly-Critical"};
-int algorithmDisabled=0;
+int algorithmDisabled=1;
 
 void init();
 int startHost(int priorityLevel);
@@ -90,8 +90,8 @@ int main()
 
 // initializes the global info of VMs and Hosts
 void init(){
-	freopen("tests/in/input14.txt","r",stdin); // open input file
-	freopen("tests/out/a/output14.txt","w",stdout); // open output file
+	freopen("tests/in/input15.txt","r",stdin); // open input file
+	freopen("tests/out/b/output15.txt","w",stdout); // open output file
 
 	currentTime=1; // in seconds
 

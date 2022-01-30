@@ -1,0 +1,350 @@
+----Simulation Started-----
+
+-----Algorithm Enabled-----
+
+Total VM Requests = 10000
+
+Range of Resource Demand = 5068 - 10886
+
+Total Host = 20
+
+Host Capacity = 250000
+
+
+-----Performance Metrics At Each second-----
+
+At Time 1: 
+Normal:  Utilization = 0.510837    Power Consumption = 25.1084
+
+
+Critical:  Utilization = 0.611176    Power Consumption = 26.1118
+
+
+Highly-Critical:  Utilization = 0.594597    Power Consumption = 25.946
+
+
+At Time 2: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 3: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 4: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 5: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 6: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 7: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 8: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 9: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 10: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 11: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 12: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 13: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 14: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 15: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 16: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 17: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 18: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 19: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 20: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 21: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 22: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 23: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 24: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 25: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 26: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 27: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 28: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 29: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+At Time 30: 
+Normal:  Utilization = 0.996009    Power Consumption = 29.9601
+
+
+Critical:  Utilization = 0.988943    Power Consumption = 29.8894
+
+
+Highly-Critical:  Utilization = 0.994603    Power Consumption = 29.946
+
+
+
+
+-----Average Values:-----
+
+Average Utilization for Normal hosts = 0.979837
+
+Average Power Consumption for Normal hosts = 29.7984
+
+Average Utilization for Critical hosts = 0.97635
+
+Average Power Consumption for Critical hosts = 29.7635
+
+Average Utilization for Highly-Critical hosts = 0.981269
+
+Average Power Consumption for Highly-Critical hosts = 29.8127
+
+
+
+-----VM Application Allocation Rates:-----
+
+Normal: 
+Total Requests = 3312
+Allocated Requests = 171
+Allocation Rate =5.16304%
+
+Critical: 
+Total Requests = 3316
+Allocated Requests = 212
+Allocation Rate =6.39324%
+
+Highly-Critical: 
+Total Requests = 3372
+Allocated Requests = 233
+Allocation Rate =6.90985%
+

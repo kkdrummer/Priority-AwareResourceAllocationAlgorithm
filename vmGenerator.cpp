@@ -8,16 +8,16 @@ int rn(int base){ // returns a number in the range 1 to base
 
 int main(){
 	srand(time(0));
-	int numOfVM=100;
+	int numOfVM=50000;
 	
-	freopen("input5.txt","w",stdout);
+	freopen("tests/in/input14.txt","w",stdout);
 	cout<<numOfVM<<"\n";
 	
 	for(int i=0;i<numOfVM;i++){
 		cout<<i<<" "; // id
-		cout<<500+rn(500)<<" "; // resource demand
+		cout<<300+rn(20)+rn(20)+rn(20)+rn(20)+rn(20)<<" "; // resource demand
 		cout<<rn(3)<<" "; // priority level
-		cout<<rn(30)<<" "; // arrival time
+		cout<<rn(50)<<" "; // arrival time
 		cout<<rn(2)-1<<"\n"; // can allocate in lower level hosts 
 	} 
 	
