@@ -54,9 +54,10 @@ struct Metric{
 
 // Globally stored vm and host information
 vm vmList[100001];
-host hostList[101];
+host hostList[4][101];
 int numOfVM;
-int numOfHost;
+int totalNumOfHost;
+int numOfHost[4]={0};
 int vmHostMap[100001];
 int totalCapacity[4];
 int occupiedCapacity[4]={0};
@@ -130,20 +131,27 @@ void init(){
 	*/
 	
 	//--- host input ---//
-	cin>>numOfHost;
+	cin>>totalNumOfHost;
 
-	for(int i=0;i<numOfHost;i++){
-		hostList[i].read();
-		totalCapacity[hostList[i].hostPriorityLevel]+=hostList[i].capacity;
+	for(int i=0;i<totalNumOfHost;i++){
+		host tempHost;
+		tempHost.read();
+		int pLevel=tempHost.hostPriorityLevel;
 
 		if(algorithmDisabled){
-			hostList[i].hostPriorityLevel=1;
+			pLevel=1;
 		}
+
+		hostList[pLevel][numOfHost[pLevel]]=tempHost;
+		numOfHost[pLevel]++;
+		totalCapacity[pLevel]+=tempHost.capacity;	
 	}
+
 	// sort hosts in decreasing order of priority
-	sort(hostList,hostList+numOfHost);
-	cout<<"Total Host = "<<numOfHost<<"\n\n";
-	cout<<"Host Capacity = "<<hostList[0].capacity<<"\n";
+	for(int i=1;i<=3;i++)sort(hostList[i],hostList[i]+numOfHost[i]);
+
+	cout<<"Total Host = "<<totalNumOfHost<<"\n\n";
+	cout<<"Host Capacity = "<<hostList[1][0].capacity<<"\n";
 
 /*
 	cout<<"-----Hosts Available:-----\n\n";	
@@ -156,17 +164,22 @@ void init(){
 }
 
 // Finds the id of the host from which allocation checking has to start 
-int startHost(int priorityLevel){
-	int l=0,r=numOfHost-1;
-	int ret;
+int idealHost(int pLevel, int rDemand){
+	// if no hosts of pLevel priority or host with maximum capacity is also not sufficient
+	if(numOfHost[pLevel]==0||hostList[pLevel][numOfHost[pLevel]-1].capacity<rDemand)return -1;
+
+	int l=0,r=numOfHost[pLevel]-1;
+	int ret = -1;
+
 	while(l<=r){
 		int m=(l+r)/2;
-		if(hostList[m].hostPriorityLevel<=priorityLevel){
+		if(hostList[pLevel][m].capacity>=rDemand){
 			ret=m;
 			r=m-1;
 		}
 		else l=m+1;
 	}
+	
 	return ret;
 }
 
@@ -194,6 +207,7 @@ void allocate()
 		int resDemand=vmList[i].resourceDemand;
 		int priorityLevel=vmList[i].applicationPriorityLevel;
 		int canAllocateInLower=vmList[i].canAllocateInLowerHosts;
+		int allocatedHostLevel=-1;
 		int allocatedHostIndex=-1;
 		
 		totalRequests[priorityLevel]++;
@@ -201,14 +215,17 @@ void allocate()
 		calculateUtilization(vmList[i].arrivalTime-1); // Calculate Utilization For Times before Current Request's Arrival Time
 
 		// starts checking from the host with same priority level and keep checking until allocated
-		for(int j=startHost(priorityLevel);j<numOfHost;j++){
+		for(int pLevel=priorityLevel;pLevel>=1;pLevel--){
 			
 			// lower priority level reached and not possible to allocate in lower level hosts
-			if(hostList[j].hostPriorityLevel < priorityLevel && !canAllocateInLower)break;
+			if(pLevel < priorityLevel && !canAllocateInLower)break;
 
-			if(hostList[j].capacity >= resDemand){
-					hostList[j].capacity -= resDemand;
-					allocatedHostIndex=j;
+			int id=idealHost(pLevel,resDemand);
+
+			if(id!=-1){
+					hostList[pLevel][id].capacity -= resDemand;
+					allocatedHostLevel=pLevel;
+					allocatedHostIndex=id;
 					break;
 			}
 
@@ -216,14 +233,14 @@ void allocate()
 
 		if(allocatedHostIndex!=-1){ // host allocated
 
-			vmHostMap[id]=hostList[allocatedHostIndex].hostId;
-			occupiedCapacity[hostList[allocatedHostIndex].hostPriorityLevel]+=resDemand;
+			vmHostMap[id]=hostList[allocatedHostLevel][allocatedHostIndex].hostId;
+			occupiedCapacity[allocatedHostLevel]+=resDemand;
 			allocatedRequests[priorityLevel]++;
 
 			// move the allocated host down the list to maintain the sorted order of hosts
 			for(int j=allocatedHostIndex-1;j>=0;j--){
-				if(hostList[j].hostPriorityLevel>hostList[allocatedHostIndex].hostPriorityLevel||hostList[j].capacity<hostList[allocatedHostIndex].capacity)break;
-				swap(hostList[j],hostList[j+1]);
+				if(hostList[allocatedHostLevel][j].capacity<hostList[allocatedHostLevel][j+1].capacity)break;
+				swap(hostList[allocatedHostLevel][j],hostList[allocatedHostLevel][j+1]);
 			}
 		}
 

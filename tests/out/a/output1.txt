@@ -6,7 +6,7 @@ Total VM Requests = 10
 
 Range of Resource Demand = 206 - 243
 
-Total Host = 10
+Total Host = 0x7027e0
 
 Host Capacity = 5000
 
