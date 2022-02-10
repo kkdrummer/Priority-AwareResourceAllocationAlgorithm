@@ -548,3 +548,9 @@ Total Requests = 16646
 Allocated Requests = 6424
 Allocation Rate =38.5919%
 
+
+
+-----Final Results-----
+
+Total Allocated Requests = 18711 out of 50000
+SCORE = 82539

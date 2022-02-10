@@ -64,6 +64,7 @@ int occupiedCapacity[4]={0};
 int allocatedRequests[4]={0};
 int totalRequests[4];
 int currentTime;
+int weight[4]={0,1,3,9};
 double utilization[3001][4];
 string priorityNames[4]={"", "Normal", "Critical", "Highly-Critical"};
 int algorithmDisabled=0;
@@ -91,8 +92,8 @@ int main()
 
 // initializes the global info of VMs and Hosts
 void init(){
-	freopen("tests/in/input15.txt","r",stdin); // open input file
-	freopen("tests/out/a/output15.txt","w",stdout); // open output file
+	freopen("tests/in/input20.txt","r",stdin); // open input file
+	freopen("tests/out/a/output20.txt","w",stdout); // open output file
 
 	currentTime=1; // in seconds
 
@@ -195,6 +196,14 @@ void calculateUtilization(int uptoTime){
 
 double calculatePower(double util){
 	return 10.00*util + 20.00;
+}
+
+int score(){
+	int s=0;
+	for(int pLevel=1;pLevel<=3;pLevel++){
+		s+=weight[pLevel]*(double)(allocatedRequests[pLevel]);
+	}
+	return s;
 }
 
 // Allocates VMs in Hosts
@@ -316,5 +325,11 @@ void printMetrics(){
 		cout<<"Allocated Requests = "<<allocatedRequests[priorityLevel]<<"\n";
 		cout<<"Allocation Rate ="<<(double)((double)allocatedRequests[priorityLevel]/(double)totalRequests[priorityLevel])*100<<"%\n\n";
 	}
+
+	cout<<"\n\n-----Final Results-----\n\n";
+	int totalAllocatedRequests=0;
+	for(int pLevel=1;pLevel<=3;pLevel++)totalAllocatedRequests+=allocatedRequests[pLevel];
+	cout<<"Total Allocated Requests = "<<totalAllocatedRequests<<" out of "<<numOfVM<<"\n";
+	cout<<"SCORE = "<<score()<<"\n";
 
 }

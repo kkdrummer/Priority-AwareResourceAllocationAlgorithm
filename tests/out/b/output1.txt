@@ -22,44 +22,44 @@ Normal:  Utilization = 0    Power Consumption = 20
 
 
 At Time 3: 
-Normal:  Utilization = 0.0219    Power Consumption = 20.219
+Normal:  Utilization = 0.00876    Power Consumption = 20.0876
 
 
 At Time 4: 
-Normal:  Utilization = 0.0455    Power Consumption = 20.455
+Normal:  Utilization = 0.0182    Power Consumption = 20.182
 
 
 At Time 5: 
-Normal:  Utilization = 0.0559    Power Consumption = 20.559
+Normal:  Utilization = 0.02236    Power Consumption = 20.2236
 
 
 At Time 6: 
-Normal:  Utilization = 0.0559    Power Consumption = 20.559
+Normal:  Utilization = 0.02236    Power Consumption = 20.2236
 
 
 At Time 7: 
-Normal:  Utilization = 0.09095    Power Consumption = 20.9095
+Normal:  Utilization = 0.03638    Power Consumption = 20.3638
 
 
 At Time 8: 
-Normal:  Utilization = 0.09095    Power Consumption = 20.9095
+Normal:  Utilization = 0.03638    Power Consumption = 20.3638
 
 
 At Time 9: 
-Normal:  Utilization = 0.10195    Power Consumption = 21.0195
+Normal:  Utilization = 0.04078    Power Consumption = 20.4078
 
 
 At Time 10: 
-Normal:  Utilization = 0.11355    Power Consumption = 21.1355
+Normal:  Utilization = 0.04542    Power Consumption = 20.4542
 
 
 
 
 -----Average Values:-----
 
-Average Utilization for Normal hosts = 0.05766
+Average Utilization for Normal hosts = 0.023064
 
-Average Power Consumption for Normal hosts = 20.5766
+Average Power Consumption for Normal hosts = 20.2306
 
 
 
@@ -80,3 +80,9 @@ Total Requests = 2
 Allocated Requests = 2
 Allocation Rate =100%
 
+
+
+-----Final Results-----
+
+Total Allocated Requests = 10 out of 10
+SCORE = 38

@@ -6,7 +6,7 @@ Total VM Requests = 10
 
 Range of Resource Demand = 206 - 243
 
-Total Host = 0x7027e0
+Total Host = 10
 
 Host Capacity = 5000
 
@@ -148,3 +148,9 @@ Total Requests = 2
 Allocated Requests = 2
 Allocation Rate =100%
 
+
+
+-----Final Results-----
+
+Total Allocated Requests = 10 out of 10
+SCORE = 38

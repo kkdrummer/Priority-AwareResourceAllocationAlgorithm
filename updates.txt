@@ -1,1 +1,2 @@
-1. Optimized Logic O(M) to O(logM)
+1. New Ratio Test Cases added
+2. Weighted Score Function Implemented

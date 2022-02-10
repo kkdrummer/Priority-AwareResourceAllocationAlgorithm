@@ -148,3 +148,9 @@ Total Requests = 4
 Allocated Requests = 4
 Allocation Rate =100%
 
+
+
+-----Final Results-----
+
+Total Allocated Requests = 10 out of 10
+SCORE = 48
