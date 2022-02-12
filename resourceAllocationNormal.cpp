@@ -92,8 +92,8 @@ int main()
 
 // initializes the global info of VMs and Hosts
 void init(){
-	freopen("tests/in/input5.txt","r",stdin); // open input file
-	freopen("tests/out/b/output5.txt","w",stdout); // open output file
+	freopen("tests/in/input20.txt","r",stdin); // open input file
+	freopen("tests/out/b/output20.txt","w",stdout); // open output file
 
 	currentTime=1; // in seconds
 
