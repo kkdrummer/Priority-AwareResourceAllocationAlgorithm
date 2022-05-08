@@ -1,2 +1,3 @@
 1. New Ratio Test Cases added
 2. Weighted Score Function Implemented
+3. pseudo code file added
