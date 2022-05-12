@@ -10,7 +10,7 @@ struct vm{
 	int arrivalTime;
 	int canAllocateInLowerHosts;
 	void read(){
-		cin>>vmId>>resourceDemand>>applicationPriorityLevel>>arrivalTime>>canAllocateInLowerHosts;
+		cin>>vmId>>resourceDemand>>applicationPriorityLevel>>arrivalTime;//>>canAllocateInLowerHosts;
 	}
 	void print(){
 		cout<<"VM Information of vmId "<<vmId<<" : \n";
@@ -92,8 +92,8 @@ int main()
 
 // initializes the global info of VMs and Hosts
 void init(){
-	freopen("tests/in/input20.txt","r",stdin); // open input file
-	freopen("tests/out/a/output20.txt","w",stdout); // open output file
+	freopen("tests/in/sample_input1.txt","r",stdin); // open input file
+	freopen("tests/out/a/sample_output1.txt","w",stdout); // open output file
 
 	currentTime=1; // in seconds
 
