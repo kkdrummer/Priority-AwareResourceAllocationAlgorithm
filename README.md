@@ -1,1 +1,2 @@
-# FinalYearProject
+# Priority Aware Resource Allocation Algorithm
+The algorithm can be applied to distribute resources of various types such as Compute, Storage, Bandwidth etc. based upon the Priority of request. The total resource pool, which is constant is partitioned into multiple sections and the relative resource available is larger for higher priority requests compared to lower priority requests, thus ensuring that at any time high priority requests have maximum possible chance of being fulfilled. Proved the hypothesis by comparing with various state of art resource allocation techniques.
